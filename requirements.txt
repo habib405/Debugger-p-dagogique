@@ -1,0 +1,25 @@
+pip install -r requirements.txt
+*(Attends que l'installation se termine, ça peut prendre quelques secondes).*
+
+### Étape 3 : Le fichier .env
+Crée un fichier `.env` à la racine (n'oublie pas le point au début) et mets-y ta clé :
+
+
+http://googleusercontent.com/immersive_entry_chip/1
+
+### Étape 4 : Le code de l'API
+Maintenant que ton environnement est prêt, crée un dossier `src/` et dedans, crée le fichier `main.py`. Voici le code commenté de ton API.
+
+
+http://googleusercontent.com/immersive_entry_chip/2
+
+### Étape 5 : Lancer le serveur
+Dans ton terminal, lance cette commande pour allumer le serveur :
+```bash
+uvicorn src.main:app --reload
+
+Si tout s'est bien passé, ton terminal affichera que l'application tourne sur `http://127.0.0.1:8000`. 
+
+**Le super pouvoir de FastAPI :** Va sur **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)** dans ton navigateur. Tu verras une interface générée automatiquement où tu pourras tester ton IA en cliquant sur "Try it out" !
+
+Dis-moi si tu arrives à faire ton premier test sur l'interface `/docs` !
