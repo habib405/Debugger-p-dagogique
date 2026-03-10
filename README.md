@@ -30,7 +30,6 @@ Pour la suite du projet, nous nous concentrerons sur :
 
 Amélioration de l'UI : Ajout de la coloration syntaxique (Prism.js ou Highlight.js) pour rendre le code plus lisible.
 
-Dashboard d'Historique : Création d'une page dédiée pour consulter et filtrer les anciennes analyses stockées en base SQLite.
 
 Affinement du Prompt : Optimisation des instructions "système" pour rendre le mentor encore plus stimulant et éviter toute tentative de "triche" de l'utilisateur.
 
