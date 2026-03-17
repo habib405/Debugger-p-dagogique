@@ -138,8 +138,9 @@ async def analyze_bug(request: DebugRequest):
       "hypotheses": [
         {
           "titre": "Piste de réflexion",
-          "explication": "Explication de la logique à corriger",
-          "test_suggere": "Un test à faire (ex: un print) ou un exemple de cours générique. AUCUN CODE CORRIGÉ APPARTENANT À L'ÉTUDIANT ICI."
+          "explication": "Explication de la logique à corriger en rentrant dans les datails et si besoin demande de precision... mais sans jamais donner la solution",
+          "test_suggere": "Un test à faire (ex: un print) ou un exemple de cours générique. AUCUN CODE CORRIGÉ APPARTENANT À L'ÉTUDIANT ICI. des explication detailler et a la fin cherche a voir si le client a compris sionon demande luis s'il a compris ... 
+          "
         }
       ],
       "encouragement": "Un petit mot sympa !"
